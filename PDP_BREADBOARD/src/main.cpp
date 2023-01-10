@@ -2,14 +2,17 @@
 
 // Define the pins that we will use
 #define SENSOR 33
+
 #define LED 26
 
-void setup() {
+void setup()
+{
   // put your setup code here, to run once:
   pinMode(LED, OUTPUT);
 }
 
-void loop() {
+void loop()
+{
   digitalWrite(LED, HIGH);
   delay(200);
   digitalWrite(LED, LOW);
